@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer')
+const puppeteer = require('puppeteer-core')
 const dotenv = require('dotenv').config()
 const express = require('express')
 const browserWSEndpoint = process.env.BROWSER_WS_ENDPOINT;
