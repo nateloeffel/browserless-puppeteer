@@ -1,5 +1,5 @@
 # Browserless with Puppeteer
-
+<sub>Check out lighter version using Puppeteer Core [here](https://github.com/nateloeffel/browserless-puppeteer/tree/puppeteer-core).</sub>
 ### How to use
 1. Install dependencies
 ```sh
@@ -20,3 +20,12 @@ node index.js
 * Currently using puppeteer, and not puppeteer core.
 * Fully working on Cloud Run
 * Built using linux/amd64
+
+
+### Docker
+Container Size: **1.7 GB**
+
+Build Command Used:
+```sh
+docker build -t nateloeffel/browserless-test:latest --platform=linux/amd64 .
+```
