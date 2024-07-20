@@ -1,4 +1,5 @@
 # Browserless with Puppeteer Core
+<sub>Check out lighter version using full Puppeteer package (with chrome and chromedriver builds) [here](https://github.com/nateloeffel/browserless-puppeteer/tree/main).</sub>
 
 ### How to use
 1. Install dependencies
